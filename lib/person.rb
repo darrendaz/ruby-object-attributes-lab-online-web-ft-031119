@@ -7,11 +7,11 @@ class Person
     @name = person_name
   end
   
-  def breed
+  def job
     @breed
   end
   
-  def breed=(person_breed)
-    @breed = dog_breed
+  def job=(person_job)
+    @job = person_job
   end
 end
